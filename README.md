@@ -1,7 +1,7 @@
 # ElxBloomFilter
 
 ## Description
-Simple implementation of a Bloom Filter. The code is based on this article[https://arpanghoshal3.medium.com/implementing-a-bloom-filter-in-elixir-bc30cdcb10e2] from Arpan Ghoshal
+Simple implementation of a Bloom Filter. The code is based on the article [Implementing a bloom filter in elixir](https://arpanghoshal3.medium.com/implementing-a-bloom-filter-in-elixir-bc30cdcb10e2) from [Arpan Ghoshal](https://arpanghoshal3.medium.com/)
 
 ## Installation
 
