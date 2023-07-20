@@ -31,7 +31,7 @@ defmodule ElxBloomFilterTest do
     assert has_all_items == true
   end
 
-  test "adding many items, change one item value and checking all should return false" do
+  test "adding many items, adding a value not present in bloom_filter to the items list and checking all should return false" do
     capacity = 100
     items = 1..capacity |> Enum.map(fn _ -> :rand.uniform(1_000) end)
 
