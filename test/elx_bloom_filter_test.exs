@@ -8,7 +8,11 @@ defmodule ElxBloomFilterTest do
 
   test "adding element to Bloom Filter" do
     bloom_filter = ElxBloomFilter.new(10)
+    assert ElxBloomFilter.has?(bloom_filter, 5) == false
+
     bloom_filter = ElxBloomFilter.add(bloom_filter, 5)
-    assert bloom_filter != nil
+    assert ElxBloomFilter.has?(bloom_filter, 5) == true
+
+    assert ElxBloomFilter.has?(bloom_filter, 6) == false
   end
 end
